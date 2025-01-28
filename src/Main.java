@@ -7,7 +7,7 @@ class BiodataMahasiswa {
 
         System.out.println("##  Program Java Biodata Mahasiswa ##");
         System.out.println("========================================");
-        System.out.println("Bagas Kurniawan JAVA di GITHUB");
+        System.out.println("Bagas Kurniawan belajar pemrograman JAVA di GITHUB");
         System.out.println();
 
         String nama, nim, fakultas, jurusan, kota_asal, alamat;
