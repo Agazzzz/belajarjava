@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 class BiodataMahasiswa {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.println("##  Program Java Biodata Mahasiswa ##");
@@ -34,11 +33,22 @@ class BiodataMahasiswa {
 
         System.out.println("# Data Mahasiswa #");
         System.out.println("==================");
-        System.out.println("Nama: "      + nama);
-        System.out.println("NIM: "       + nim);
-        System.out.println("Fakultas: "  + fakultas);
-        System.out.println("Jurusan: "   + jurusan);
+        System.out.println("Nama: " + nama);
+        System.out.println("NIM: " + nim);
+        System.out.println("Fakultas: " + fakultas);
+        System.out.println("Jurusan: " + jurusan);
         System.out.println("Kota Asal: " + kota_asal);
-        System.out.println("Alamat: "    + alamat);
+        System.out.println("Alamat: " + alamat);
+    }
+}
+class LuasPersegi {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukkan panjang sisi persegi: ");
+        double sisi = scanner.nextDouble();
+
+        double luas = sisi * sisi;
+        System.out.println("Luas persegi adalah: " + luas);
     }
 }
